@@ -7,4 +7,4 @@ requests
 numpy
 sentence-transformers
 faster-whisper==0.9.0
-torch==2.5.1
+torch==2.0.1
