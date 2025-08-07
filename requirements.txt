@@ -1,7 +1,10 @@
-fastapi==0.104.1
-uvicorn==0.24.0
-httpx==0.25.2
-pydantic==2.4.2
-python-multipart==0.0.6
-python-dotenv==1.0.0
-email-validator==2.1.0
+fastapi
+uvicorn[standard]
+aiofiles
+python-multipart
+pydantic
+requests
+numpy
+sentence-transformers
+faster-whisper==0.9.0  # Avoid latest version that compiles from source
+torch==2.1.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
