@@ -7,4 +7,5 @@ requests
 numpy
 sentence-transformers
 faster-whisper==0.9.0
-torch==2.0.1
+torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
