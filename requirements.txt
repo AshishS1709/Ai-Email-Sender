@@ -6,5 +6,5 @@ pydantic
 requests
 numpy
 sentence-transformers
-faster-whisper==0.9.0  # Avoid latest version that compiles from source
-torch==2.1.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
+faster-whisper==0.9.0
+torch==2.5.1
